@@ -1,1 +1,1 @@
-yolo train data=/home/ehooph/pose/ultralytics/ultralytics/cfg/datasets/panda-pose.yaml model=/home/ehooph/pose/ultralytics/ultralytics/weights/yolov8s-pose.pt epochs=300 imgsz=640 batch=64 workers=16 name=train_yolov8s
+yolo train data=/home/ehooph/tyop/ultralytics/ultralytics/cfg/datasets/space-pose.yaml model=/home/ehooph/pose/ultralytics/ultralytics/weights/yolov8s-pose.pt epochs=300 imgsz=640 batch=64 workers=16 name=train_yolov8s
