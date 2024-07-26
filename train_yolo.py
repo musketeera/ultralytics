@@ -1,8 +1,8 @@
 import comet_ml
 from ultralytics import YOLO
 
-comet_ml.init(project_name="comet-yolov8n-pose")
-model = YOLO("model=/home/ehooph/tyop/ultralytics/ultralytics/weights/yolov8n-pose.pt")
+comet_ml.login(project_name="comet-yolov8n-pose")
+model = YOLO("/home/ehooph/tyop/ultralytics/ultralytics/weights/yolov8n-pose.pt")
 results = model.train(
     data="/home/ehooph/tyop/ultralytics/ultralytics/cfg/datasets/space-pose.yaml", 
     project="comet-yolov8n-pose", 
