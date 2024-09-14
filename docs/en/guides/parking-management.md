@@ -38,18 +38,18 @@ Parking management with [Ultralytics YOLOv8](https://github.com/ultralytics/ultr
 
 ### Selection of Points
 
-!!! Tip "Point Selection is now Easy"
+!!! tip "Point Selection is now Easy"
 
     Choosing parking points is a critical and complex task in parking management systems. Ultralytics streamlines this process by providing a tool that lets you define parking lot areas, which can be utilized later for additional processing.
 
 - Capture a frame from the video or camera stream where you want to manage the parking lot.
 - Use the provided code to launch a graphical interface, where you can select an image and start outlining parking regions by mouse click to create polygons.
 
-!!! Warning "Image Size"
+!!! warning "Image Size"
 
     Max Image Size of 1920 * 1080 supported
 
-!!! Example "Parking slots Annotator Ultralytics YOLOv8"
+!!! example "Parking slots Annotator Ultralytics YOLOv8"
 
     === "Parking Annotator"
 
@@ -65,7 +65,7 @@ Parking management with [Ultralytics YOLOv8](https://github.com/ultralytics/ultr
 
 ### Python Code for Parking Management
 
-!!! Example "Parking management using YOLOv8 Example"
+!!! example "Parking management using YOLOv8 Example"
 
     === "Parking Management"
 
@@ -122,15 +122,7 @@ Parking management with [Ultralytics YOLOv8](https://github.com/ultralytics/ultr
 
 ### Arguments `model.track`
 
-| Name      | Type    | Default        | Description                                                 |
-| --------- | ------- | -------------- | ----------------------------------------------------------- |
-| `source`  | `im0`   | `None`         | source directory for images or videos                       |
-| `persist` | `bool`  | `False`        | persisting tracks between frames                            |
-| `tracker` | `str`   | `botsort.yaml` | Tracking method 'bytetrack' or 'botsort'                    |
-| `conf`    | `float` | `0.3`          | Confidence Threshold                                        |
-| `iou`     | `float` | `0.5`          | IOU Threshold                                               |
-| `classes` | `list`  | `None`         | filter results by class, i.e. classes=0, or classes=[0,2,3] |
-| `verbose` | `bool`  | `True`         | Display the object tracking results                         |
+{% include "macros/track-args.md" %}
 
 ## FAQ
 
