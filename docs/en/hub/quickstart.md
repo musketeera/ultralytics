@@ -6,7 +6,7 @@ keywords: Ultralytics HUB, Quickstart, YOLO models, dataset upload, project mana
 
 # Ultralytics HUB Quickstart
 
-[Ultralytics HUB](https://www.ultralytics.com/hub) is designed to be user-friendly and intuitive, allowing users to quickly upload their datasets and train new YOLO models. It also offers a range of pre-trained models to choose from, making it extremely easy for users to get started. Once a model is trained, it can be effortlessly previewed in the [Ultralytics HUB App](app/index.md) before being deployed for real-time classification, object detection, and instance segmentation tasks.
+[Ultralytics HUB](https://www.ultralytics.com/hub) is designed to be user-friendly and intuitive, allowing users to quickly upload their datasets and train new YOLO models. It also offers a range of pre-trained models to choose from, making it extremely easy for users to get started. Once a model is trained, it can be effortlessly previewed in the [Ultralytics HUB App](app/index.md) before being deployed for real-time classification, [object detection](https://www.ultralytics.com/glossary/object-detection), and [instance segmentation](https://www.ultralytics.com/glossary/instance-segmentation) tasks.
 
 <p align="center">
   <iframe loading="lazy" width="720" height="405" src="https://www.youtube.com/embed/lveF9iCMIzc?si=_Q4WB5kMB5qNe7q6"
@@ -54,7 +54,7 @@ You can upload a dataset directly from the [Home](https://hub.ultralytics.com/ho
 
 ![Ultralytics HUB screenshot of the Home page with an arrow pointing to the Upload Dataset card](https://github.com/ultralytics/docs/releases/download/0/ultralytics-hub-upload-dataset-card.avif)
 
-Read more about [datasets](https://docs.ultralytics.com/hub/datasets).
+Read more about [datasets](https://docs.ultralytics.com/hub/datasets/).
 
 ### Create Project
 
@@ -62,7 +62,7 @@ You can create a project directly from the [Home](https://hub.ultralytics.com/ho
 
 ![Ultralytics HUB screenshot of the Home page with an arrow pointing to the Create Project card](https://github.com/ultralytics/docs/releases/download/0/hub-create-project-card.avif)
 
-Read more about [projects](https://docs.ultralytics.com/hub/projects).
+Read more about [projects](https://docs.ultralytics.com/hub/projects/).
 
 ### Train Model
 
@@ -70,7 +70,7 @@ You can train a model directly from the [Home](https://hub.ultralytics.com/home)
 
 ![Ultralytics HUB screenshot of the Home page with an arrow pointing to the Train Model card](https://github.com/ultralytics/docs/releases/download/0/ultralytics-hub-train-model-card.avif)
 
-Read more about [models](https://docs.ultralytics.com/hub/models).
+Read more about [models](https://docs.ultralytics.com/hub/models/).
 
 ## Feedback
 

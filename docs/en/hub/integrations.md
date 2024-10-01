@@ -96,7 +96,7 @@ Navigate to the [Integrations](https://hub.ultralytics.com/settings?tab=integrat
 
 ### Exports
 
-After you [train a model](./models.md#train-model), you can [export it](./models.md#deploy-model) to 13 different formats, including ONNX, OpenVINO, CoreML, TensorFlow, Paddle and many others.
+After you [train a model](./models.md#train-model), you can [export it](./models.md#deploy-model) to 13 different formats, including ONNX, OpenVINO, CoreML, [TensorFlow](https://www.ultralytics.com/glossary/tensorflow), Paddle and many others.
 
 ![Ultralytics HUB screenshot of the Deploy tab inside the Model page with an arrow pointing to the Export card and all formats exported](https://github.com/ultralytics/docs/releases/download/0/ultralytics-hub-deploy-export-formats.avif)
 
@@ -124,4 +124,4 @@ Your feedback shapes our future releases. Share your thoughts and suggestions [h
 
 ## Thank You, Community! 🌍
 
-Your [contributions](https://docs.ultralytics.com/help/contributing) inspire our continuous [innovation](https://github.com/ultralytics/ultralytics). Stay tuned for the big reveal of what's next in AI and ML at Ultralytics!
+Your [contributions](https://docs.ultralytics.com/help/contributing/) inspire our continuous [innovation](https://github.com/ultralytics/ultralytics). Stay tuned for the big reveal of what's next in AI and ML at Ultralytics!

@@ -92,7 +92,7 @@ Object blurring with [Ultralytics YOLOv8](https://github.com/ultralytics/ultraly
 
 ### How can I implement real-time object blurring using YOLOv8?
 
-To implement real-time object blurring with YOLOv8, follow the provided Python example. This involves using YOLOv8 for object detection and OpenCV for applying the blur effect. Here's a simplified version:
+To implement real-time object blurring with YOLOv8, follow the provided Python example. This involves using YOLOv8 for [object detection](https://www.ultralytics.com/glossary/object-detection) and OpenCV for applying the blur effect. Here's a simplified version:
 
 ```python
 import cv2
@@ -132,8 +132,8 @@ For more detailed applications, check the [advantages of object blurring section
 
 ### Can I use Ultralytics YOLOv8 to blur faces in a video for privacy reasons?
 
-Yes, Ultralytics YOLOv8 can be configured to detect and blur faces in videos to protect privacy. By training or using a pre-trained model to specifically recognize faces, the detection results can be processed with OpenCV to apply a blur effect. Refer to our guide on [object detection with YOLOv8](https://docs.ultralytics.com/models/yolov8) and modify the code to target face detection.
+Yes, Ultralytics YOLOv8 can be configured to detect and blur faces in videos to protect privacy. By training or using a pre-trained model to specifically recognize faces, the detection results can be processed with [OpenCV](https://www.ultralytics.com/glossary/opencv) to apply a blur effect. Refer to our guide on [object detection with YOLOv8](https://docs.ultralytics.com/models/yolov8/) and modify the code to target face detection.
 
 ### How does YOLOv8 compare to other object detection models like Faster R-CNN for object blurring?
 
-Ultralytics YOLOv8 typically outperforms models like Faster R-CNN in terms of speed, making it more suitable for real-time applications. While both models offer accurate detection, YOLOv8's architecture is optimized for rapid inference, which is critical for tasks like real-time object blurring. Learn more about the technical differences and performance metrics in our [YOLOv8 documentation](https://docs.ultralytics.com/models/yolov8).
+Ultralytics YOLOv8 typically outperforms models like Faster R-CNN in terms of speed, making it more suitable for real-time applications. While both models offer accurate detection, YOLOv8's architecture is optimized for rapid inference, which is critical for tasks like real-time object blurring. Learn more about the technical differences and performance metrics in our [YOLOv8 documentation](https://docs.ultralytics.com/models/yolov8/).
